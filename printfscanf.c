@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
+	//정수형 변수에 대한 예제
 	/*int age = 12;
 	printf("%d\n", age);
 	age = 13;

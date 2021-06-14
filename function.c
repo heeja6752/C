@@ -55,8 +55,8 @@ int main(void)
 	/*function_with_params(35, 27, 12);*/
 
 	//파라미터(전달값)도 받고, 반환값이 있는 함수
-	int ret = apple(5, 2);  // 5개의 사과 중에서 2개를 먹었어요
-	printf("사과 5개 중에 2개를 먹으면? %d 개가 남아요\n", ret);
+	//int ret = apple(5, 2);  // 5개의 사과 중에서 2개를 먹었어요
+	printf("사과 %d개 중에 %d개를 먹으면? %d 개가 남아요\n", 10,4,apple(10,4));
 
 	return 0;
 }

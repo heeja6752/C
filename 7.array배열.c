@@ -84,8 +84,21 @@ int main(void)
 	//char 크기 : 1 byte
 
 	/*char c_array[7] = { 'c','o','d','i','n','g','\0' };*/
-	char c_array[6] = { 'c','o','d','i','n','g'};
-	printf("%s\n", c_array);
+	//char c_array[6] = { 'c','o','d','i','n','g'};
+	//printf("%s\n", c_array);
+
+	//char c_array[10] = { 'c','o','d','i','n','g' };
+	///*printf("%s\n", c_array);*/
+	//for (int i = 0; i < sizeof(c_array); i++)
+	//{
+	//	printf("%c\n", c_array[i]);
+	//}
+
+	//문자열 입력받기 : 경찰 조서 쓰기 예제
+	char name[256];
+	printf("이름을 입력하세요 : ");
+	scanf_s("%s", name, sizeof(name));
+	printf("%s\n", name);
 
 
 	return 0;
